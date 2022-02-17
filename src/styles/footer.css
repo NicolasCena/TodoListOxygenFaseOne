@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(214, 235, 253, 0.144);
+    margin-top: 20px;
+}
+
+.footer p{
+    color: aliceblue;
+    font-family: Lobster, cursive;
+    font-weight: 100;
+}

@@ -1,0 +1,24 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.home__boxes-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .home__boxes-container {
+    justify-content: center;
+    flex-direction: column;
+
+  }
+}

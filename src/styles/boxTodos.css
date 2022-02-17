@@ -1,0 +1,23 @@
+.boxTodos__container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.boxTodos__title-container{
+    background-color: rgb(139, 139, 139);
+    border-radius: 10px 10px 0 0;
+    width: 70%;
+    padding: 7px;
+
+}
+.boxTodos__container h2{
+    color: aliceblue;
+    margin: 5px;
+}
+

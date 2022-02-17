@@ -1,0 +1,92 @@
+@import url('./constants.css');
+
+.todoDone__container{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #d169089a;
+    border-radius: 10px  0 0 10px;
+    width: 70%;
+    margin: 10px;
+    text-align: center;
+    -webkit-box-shadow: 6px 0px 3px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    6px 0px 3px 0px rgba(50, 50, 50, 1);
+    box-shadow:         6px 0px 3px 0px rgba(50, 50, 50, 1);
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  white-space: initial;
+  padding: 20px;
+}
+
+.todoDone__container h2{
+    margin-bottom: 5px;
+   
+
+}
+
+.todoDone__container p{
+    margin-bottom: 5px;
+
+}
+
+.todoDone__tag-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0 ;
+    height: auto;
+}
+
+
+.todoDone__description{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.todoDone__title{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.todoDone__tag{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.todoDone__button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.todoDone__button-container button{
+    margin: 0 10px 0 10px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.todoDone__button-delete{
+    background-color: rgba(255, 0, 0, 0.465);
+    color: azure;
+    border: 1px solid white;
+}
+
+.todoDone__button-return{
+    background-color: rgba(0, 255, 179, 0.465);
+    color: azure;
+    border: 1px solid white;
+}
